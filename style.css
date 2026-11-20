@@ -71,6 +71,10 @@ footer {
     margin: var(--standard-gap);
 }
 
+footer a {
+    color: white;
+}
+
 img {
     border-radius: 20px;
     margin-top: 2%;

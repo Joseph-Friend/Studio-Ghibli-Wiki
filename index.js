@@ -12,7 +12,7 @@ async function getData() {
 
     result.forEach(movie => {
         console.log(movie);
-        document.getElementById("movies").innerHTML +=  `<article><h3 class=\"title\">${movie.title}</h3><p class=\"subtitle\">By: ${movie.producer}</p><p class=\"subtitle\">${movie.release_date}</p><img src=\"${movie.image}\"><p class=\"content\">${movie.description}</p><a href=\"\"</a></article>`
+        document.getElementById("movies").innerHTML +=  `<article><h3 class=\"title\">${movie.title}</h3><p class=\"subtitle\">By: ${movie.producer}</p><p class=\"subtitle\">${movie.release_date}</p><img src=\"${movie.image}\"><p class=\"content\">${movie.description}</p></article>`
     });
   } catch (error) {
     console.error(error.message);
